@@ -1,12 +1,27 @@
-# React + Vite
+# Namaz Time App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that displays prayer times (specifically sunrise, sunset, and Maghrib) based on the user's current location or a searched city.
 
-Currently, two official plugins are available:
+![App Screenshot](image.png) 
+![App Screenshot](image-1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Get prayer times for your current location
+- Search for prayer times by city name
+- Displays sunrise, sunset, and Maghrib times
+- Clean 12-hour format with AM/PM display
+- Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React.js
+- Sunrise-Sunset API (https://api.sunrise-sunset.org)
+- Nominatim OpenStreetMap API (https://nominatim.openstreetmap.org)
+- Tailwind CSS for styling
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/namaz-time-app.git
